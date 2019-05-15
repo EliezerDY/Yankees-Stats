@@ -1,0 +1,82 @@
+body {
+
+  background-image: url("Week_11/logo.gif");
+}
+
+
+
+#container {
+
+	width: 1210px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+a{
+	text-decoration: none;
+}
+h2 {
+
+	color: white;
+	text-align: center;
+
+}
+
+h3 {
+text-align: center;
+	color: #1c2841;
+
+}
+
+#header {
+	background-color: #1c2841 ;
+	font-family: "Copperplate Gothic Bold";
+	padding: 5px;
+	margin: 0px;
+	color: #FFFFFF;
+}
+#topnav {
+	background-color: #1c2841 ;
+	color: white;
+	height: 43px;
+	margin-top: -17px;
+	text-align: center;
+}
+
+#topnav a {
+
+	color: white;
+}
+
+#topnav li {
+
+	display: inline;
+	list-style: none;
+	float: left;
+	padding: 10px;
+}
+
+#content {
+	background-color: white;
+	height: 1000px;
+}
+
+#sidenav {
+
+	width: 160px;
+	float: left;
+	padding: 10px;
+
+}
+
+footer{
+	background-color: #1c2841;
+	text-align: center;
+	color: #FFFFFF;
+	height: 100px;
+
+}
+
+
+
+}

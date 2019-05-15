@@ -1,0 +1,54 @@
+<html>
+
+<head>
+
+<title>Blog - New Entry</title>
+
+</head>
+<body onLoad="document.forms[0].elements[0].focus()">
+
+<p>
+<font face="Arial Black" color="#800080">My Blog <br>
+</font>&nbsp;
+
+
+
+</p>
+
+
+
+<form action="add2_record.asp" method="post">
+  
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="600" id="AutoNumber1">
+    <tr>
+      <td width="88">Date</td>
+      <td width="300">
+      <input type="text" name="Date1" size="35" style="width: 129px"></td>
+    </tr>
+    <tr>
+      <td width="88">Blog title</td>
+      <td width="300"> 
+      <input type="text" name="BlogTitle" size="35" style="width: 326px"></td>
+    </tr>
+    <tr>
+      <td width="88">Category</td>
+      <td width="300"> 
+      <input type="text" name="Category" size="16" style="width: 160px"></td>
+    </tr>
+    <tr>
+      <td width="88">Blog</td>
+      <td width="300"> 
+      <textarea name="Blog" style="width: 353px; height: 173px"></textarea></td>
+    </tr>
+    <tr>
+      <td width="88" style="height: 19px"> </td>
+      <td width="300" style="height: 19px"> 
+        <input type="submit" value="Add New Blog Entry" name="Submit"></td>
+    </tr>
+    </table>
+  
+</form>
+
+</body>
+
+</html>
